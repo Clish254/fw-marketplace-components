@@ -627,6 +627,10 @@ video {
   height: 2.75em;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .w-\[1em\] {
   width: 1em;
 }
@@ -695,6 +699,14 @@ video {
 .text-grey-default {
   --tw-text-opacity: 1;
   color: rgba(99, 99, 101, var(--tw-text-opacity));
+}
+
+.duration-100 {
+  transition-duration: 100ms;
+}
+
+.duration-500 {
+  transition-duration: 500ms;
 }
 
 .hover\:bg-black-light:hover {

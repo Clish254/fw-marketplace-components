@@ -745,6 +745,10 @@ video {
   color: rgba(205, 205, 205, var(--tw-text-opacity));
 }
 
+.no-underline {
+  text-decoration: none;
+}
+
 .hover\:bg-black-light:hover {
   --tw-bg-opacity: 1;
   background-color: rgba(48, 47, 54, var(--tw-bg-opacity));
