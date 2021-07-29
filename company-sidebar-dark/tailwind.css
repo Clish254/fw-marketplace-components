@@ -682,6 +682,10 @@ video {
   width: 2.75em;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -747,6 +751,10 @@ video {
 
 .no-underline {
   text-decoration: none;
+}
+
+.duration-500 {
+  transition-duration: 500ms;
 }
 
 .hover\:bg-black-light:hover {

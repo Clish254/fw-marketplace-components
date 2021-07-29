@@ -648,6 +648,10 @@ video {
   width: 13.375em;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -705,8 +709,8 @@ video {
   color: rgba(54, 54, 54, var(--tw-text-opacity));
 }
 
-.duration-300 {
-  transition-duration: 300ms;
+.no-underline {
+  text-decoration: none;
 }
 
 .duration-500 {

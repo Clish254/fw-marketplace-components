@@ -627,10 +627,6 @@ video {
   height: 2.75em;
 }
 
-.h-auto {
-  height: auto;
-}
-
 .w-\[1em\] {
   width: 1em;
 }
@@ -641,6 +637,10 @@ video {
 
 .w-\[2\.75em\] {
   width: 2.75em;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .items-center {
@@ -701,8 +701,8 @@ video {
   color: rgba(99, 99, 101, var(--tw-text-opacity));
 }
 
-.duration-100 {
-  transition-duration: 100ms;
+.no-underline {
+  text-decoration: none;
 }
 
 .duration-500 {
